@@ -1,9 +1,9 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import LandingPage from "./LandingPage"; // Ensure this is imported
-import Lab4 from "./app/lab4"; // Ensure this is imported
-import { RootStackParamList } from "./app/type"; // Import types
+import LandingPage from "./LandingPage"; 
+import Lab4 from "./app/lab4"; 
+import { RootStackParamList } from "./app/type"; 
 
 const Stack = createStackNavigator<RootStackParamList>();
 
